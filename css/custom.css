@@ -1,0 +1,391 @@
+/*This Custom CSS file has not been structured in any particular order.
+
+Modify this file to your hearts content and make your website look awesome!*/
+
+.background-box {
+	background-color: black;
+}
+
+svg {
+	display: block;
+	font: 10em 'Righteous';
+	align-items: center;
+}
+
+.text-copy {
+	fill: none;
+	letter-spacing: 10px;
+	stroke-dasharray: 6% 29%;
+	stroke-width: 0.5vw;
+	stroke-dashoffset: 0%;
+	animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #273eaf;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #814ee1;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #f94f5a;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #b83da6;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #273eaf;
+	animation-delay: -5s;
+}
+
+.text-copy:nth-child(6){
+	stroke: #d43276;
+	animation-delay: -6.5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+/*---------------------------------------------*/
+
+body{
+	background-image: linear-gradient(#03327c, 	#f94f5a);
+}
+
+.bodyover {
+	background-color: black;
+}
+
+.parallax {
+	background-image: url('../img/common/stars.jpg');
+	min-height: 450px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.parallax2 {
+	background-image: url('../img/common/stars3.jpg');
+	min-height: 450px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.parallax3 {
+	background-image: url('../img/common/mountStars.jpg');
+	min-height: 110px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.parallax4 {
+	background-image: url('../img/common/city.jpg');
+	min-height: 840px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.parallax5 {
+	background-image: url('../img/common/drdronepara.jpg');
+	min-height: 20px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.parallax6 {
+	background-image: url('../img/common/city2.jpg');
+	min-height: 840px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	color: white;
+	border-radius: 30px;
+}
+
+.conTab {
+	padding: 20px;
+	color: white;
+}
+
+/* Clear floats after the columns */
+.header-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtncon {
+	float: right;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+
+/*Home*/
+.full-page-bg {
+	position: absolute;
+	width:100%;
+	min-height: 100%;
+	background: url('../img/common/time.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+/*Cards*/
+.card{border: none; background-color: transparent;}
+
+/*Navbar Rules*/
+img.nav-bar-img{
+	margin-right: 10px;
+}
+
+a.navbar-brand{
+	font-family:'Righteous';
+}
+
+/*Floating Nav*/
+.floating-nav{
+	position: fixed;
+	margin-top: 10px;
+	border-left: 2px solid white;
+	color: white;
+}
+
+.container, .bg-transparent {
+	align-items: center;
+}
+
+.navbar {
+	background: white;
+}
+
+a.nav-item, a.nav-link {
+	font-family: 'Josefin Sans';
+	letter-spacing: 2px;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: left;
+}
+
+/*Image Rules*/
+img{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+/*Font Override Rules*/
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Montserrat', Sans-Serif;
+	margin-bottom: 20px;
+	color: white;
+}
+
+h1 {
+	font-size: 90px;
+	font-family: 'Bungee Shade';
+	text-align: center;
+}
+
+h2.welcome-special-sub{
+	font-family: 'Plaster';
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-left: 30px;
+}
+
+h2 {
+	font-family:'Righteous';
+	font-size: 20px;
+}
+
+h3{
+	text-transform: capitalize;
+	text-indent: 20px;
+	letter-spacing: 1px;
+	font-family: 'Revalia';
+	font-size: 45px;
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.compheading {
+	font-size: 200px;
+	font-family: 'Plaster';
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.portheading {
+	font-size: 120px;
+	font-family: 'Plaster';
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+.compquote {
+	font-size: 55px;
+	font-family: 'Revalia';
+	text-align: center;
+	color: white;
+}
+
+.compquote2 {
+	font-size: 25px;
+	font-family: 'Revalia';
+	text-align: center;
+	color: white;
+}
+
+li, span, a {
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+ul {
+	text-align: center;
+}
+
+p{
+	color: white;
+	line-height: 30px;
+	margin-bottom: 25px;
+	text-align: left;
+}
+
+span.img-caption{
+	display: block;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 10px 0px 10px 0px;
+}
+
+/*Container/class etc Override Rules*/
+.welcome-message{
+	margin-top: 200px;
+	color: white;
+}
+.welcome-button-container{
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+.welcome-button{
+	background-color: #002266;
+	border-radius: 0px 0px 0px 0px;
+	border: 3px solid #000;
+	font-family:'Montserrat', Sans-Serif;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 20px;
+}
+
+.welcome-button:hover{
+	background-color: #4d88ff;
+	border-color: white;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: black;
+	border: 1px;
+	border-radius: 20px;
+}
+
+
+.master-heading{
+	padding-top: 250px;
+}
+
+.section-heading{
+	padding-top: 100px;
+}
+
+.quotep {
+	font-style: italic;
+	font-size: 26px;
+	text-align:center;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: white;
+}
+
+.slide-show{
+	padding: 30px 0px 50px 0px;
+}
+
+.img-caption {
+	color: white;
+}
+
+.center-all {
+	text-align: center;
+}
+
+/*Footer*/
+.footer{
+	color: black;
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 100%;
+	min-height: 50px;
+}
+
+.break {
+	padding-bottom: 20px;
+}
+
+.break2 {
+	padding-top: 120px;
+}
+
+.col-background {
+	padding: 10%;
+	background-color: #004080;
+}
+
+.col-background2 {
+	padding: 10%;
+	background-color: #cc0066;
+}
